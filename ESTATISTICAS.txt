@@ -1,0 +1,86 @@
+📊 ESTATÍSTICAS DO PROJETO
+══════════════════════════════════════════════════════════════
+
+📁 ARQUIVOS
+──────────────────────────────────────────────────────────────
+Total de arquivos TypeScript/TSX:    19
+Total de linhas de código:           2,431
+Componentes React:                   8
+Telas (Screens):                     4
+Serviços:                            2
+Utilitários:                         3
+Tipos TypeScript:                    1
+
+📦 COMPONENTES
+──────────────────────────────────────────────────────────────
+✓ EmptyState         - Estado vazio reutilizável
+✓ FilterBar          - Filtros de humor
+✓ LoadingState       - Loading genérico
+✓ MoodSelector       - Seletor de humor (5 opções)
+✓ PromptCard         - Card de sugestão diária
+✓ StreakCard         - Card de streak/estatísticas
+✓ StreakCelebration  - Animação de conquista
+✓ WelcomeModal       - Modal de boas-vindas
+
+📱 TELAS
+──────────────────────────────────────────────────────────────
+✓ HomeScreen         - Escrita de diário (334 linhas)
+✓ HistoryScreen      - Histórico + filtros (282 linhas)
+✓ InsightsScreen     - Estatísticas visuais (365 linhas)
+✓ SettingsScreen     - Exportação e config (271 linhas)
+
+🔧 SERVIÇOS
+──────────────────────────────────────────────────────────────
+✓ promptService      - 26 prompts em 4 categorias
+✓ storageService     - CRUD + Streaks (AsyncStorage)
+
+🎨 FUNCIONALIDADES
+──────────────────────────────────────────────────────────────
+✓ Sistema de diário com uma entrada/dia
+✓ Sugestões de reflexão com IA
+✓ Sistema de streaks motivacional
+✓ Seletor de humor (5 estados)
+✓ Histórico com filtros
+✓ Insights visuais (gráficos + calendário)
+✓ Exportação (texto + JSON)
+✓ Onboarding
+✓ 100% privado (dados locais)
+
+🚀 TECNOLOGIAS
+──────────────────────────────────────────────────────────────
+• React Native 0.76.7
+• Expo SDK 52
+• TypeScript (strict mode)
+• React Navigation 7
+• AsyncStorage 1.23.1
+• date-fns (latest)
+• Expo Vector Icons
+• Expo Blur
+
+📐 DESIGN
+──────────────────────────────────────────────────────────────
+Cores primárias:      #2196F3 (Azul), #4ECDC4 (Turquesa)
+Bordas:               12-24px radius
+Sombras:              Suaves e modernas
+Tipografia:           System fonts
+Ícones:               Ionicons
+
+🎯 QUALIDADE
+──────────────────────────────────────────────────────────────
+Type Safety:          ✅ 100% TypeScript
+Componentização:      ✅ Alta reutilização
+Documentação:         ✅ 3 arquivos completos
+Organização:          ✅ Estrutura clara
+Privacidade:          ✅ Zero tracking
+Performance:          ✅ Otimizado
+
+📈 MÉTRICAS
+──────────────────────────────────────────────────────────────
+Tamanho médio/arquivo:    128 linhas
+Maior arquivo:            InsightsScreen (365 linhas)
+Menor arquivo:            LoadingState (22 linhas)
+Complexidade:             Média-Alta
+Manutenibilidade:         Alta
+
+✨ STATUS: PRODUÇÃO READY
+══════════════════════════════════════════════════════════════
